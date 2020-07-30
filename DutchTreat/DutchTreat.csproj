@@ -8,4 +8,8 @@
     <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="node_modules/**" />
+  </ItemGroup>
+
 </Project>

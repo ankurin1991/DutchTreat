@@ -1,57 +1,64 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div class="product-info">
-    <img src="~/img/11.jpeg" />
-    <h3>mug</h3>
-    <ul class="product-props">
-        <li>Price: $9.99</li>
-        <li>Artist: Ankur</li>
-        <li>Title:</li>
-        <li>Description: Self Potrait</li>
-    </ul>
-    <button id="buyButton">Buy</button>
-</div>
-<!--<hr />-->
-<div id="theForm">
-    <form>
-        <label>Your Name:</label>
-        <br />
-        <input />
-        <br />
-        <label>Email:</label>
-        <br />
-        <input type="email" />
-        <br />
-        <label>Subject:</label>
-        <br />
-        <input type="text" />
-        <br />
-        <label>Message:</label>
-        <br />
-        <textarea rows="4"></textarea>
-        <br />
-        <input type="submit" value="Submit Data" />
-    </form>
-</div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="product-info">
+                <img src="~/img/11.jpeg" />
+                <h3>mug</h3>
+                <ul class="product-props">
+                    <li>Price: $9.99</li>
+                    <li>Artist: Ankur</li>
+                    <li>Title:</li>
+                    <li>Description: Self Potrait</li>
+                </ul>
+                <button id="buyButton" class="btn btn-success">Buy</button>
+            </div>
+            <!--<hr />-->
+            <div id="theForm">
+                <form>
+                    <label>Your Name:</label>
+                    <br />
+                    <input />
+                    <br />
+                    <label>Email:</label>
+                    <br />
+                    <input type="email" />
+                    <br />
+                    <label>Subject:</label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <label>Message:</label>
+                    <br />
+                    <textarea rows="4"></textarea>
+                    <br />
+                    <input type="submit" value="Submit Data" />
+                </form>
+            </div>
 
-<div>
-    <div id="loginToggle">Login</div>
-    <form class="popup-form">
-        <div>
-            <label>Username</label>
-            <input />
+            <div>
+                <div id="loginToggle">Login</div>
+                <form class="popup-form">
+                    <div>
+                        <label>Username</label>
+                        <input />
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" />
+                    </div>
+                    <div>
+                        <input type="checkbox" />
+                        <label>Remember Me</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Login" />
+                    </div>
+                </form>
+            </div>
         </div>
-        <div>
-            <label>Password</label>
-            <input type="password" />
+        <div class="col-md-6">
+            <p>This is fun site to buy some dutch products</p>
         </div>
-        <div>
-            <input type="checkbox" />
-            <label>Remember Me</label>
-        </div>
-        <div>
-            <input type="submit" value="Login" />
-        </div>
-    </form>
-</div>
+    </div>

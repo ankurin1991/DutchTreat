@@ -1,4 +1,11 @@
-﻿body {
+﻿.navbar-brand {
+    padding-bottom: 0;
+}
+
+#formPadding {
+    margin-top: 10%;
+}
+/*body {
     font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -77,4 +84,4 @@ menu li::after {
 
 menu li:last-of-type::after {
     content: "";
-}
+}*/
